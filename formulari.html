@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <title>Formulari noticiari</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Subscriu-te al noticiari ITIC Barcelona</h1>
+        <p>Primer, explica'ns qui ets</p>
+        <form action="">
+            <label for="email">Email </label>
+            <input type="email" id="email">
+            <br>
+            <label for="nom">Nom i cognoms</label>
+            <input type="text" id="nom">
+            <br>
+            <label for="edat">Edat </label>
+            <input type="number" id="edat">
+        </form>
+        <p>Quin cicle estàs estudiant?</p>
+        <form action="">
+            <input type="radio" name="gs" id="gs1" value="ASIX" checked>
+            <label for="gs1">ASIX</label>
+            <br>
+            <input type="radio" name="gs" id="gs2" value="DAM">
+            <label for="gs2">DAM</label>
+            <br>
+            <input type="radio" name="gs" id="gs3" value="DAW">
+            <label for="gs3">DAW</label>
+            <br>
+            <br>
+            <label for="llista">I en quin curs? </label>
+            <select name="llista" id="llista"><option value="primer">Primer</option><option value="segon">Segon</option><option value="tercer">Tercer</option></select>
+        </form>
+        <p>Marca els temes que vulguis estar sempre al dia!</p>
+        <form action="">
+            <input type="checkbox" name="temes" id="ia" checked>
+            <label for="ia">Intel·ligència artificial</label>
+            <br>
+            <input type="checkbox" name="temes" id="compu">
+            <label for="compu">Computació quàntica</label>
+            <br>
+            <input type="checkbox" name="temes" id="super">
+            <label for="super">Supercomputadors</label>
+            <br>
+            <input type="checkbox" name="temes" id="algo">
+            <label for="algo">Recerca en algorísmia</label>
+        </form>
+    </body>
+</html>
