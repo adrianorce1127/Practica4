@@ -9,12 +9,12 @@
         <p>Primer, explica'ns qui ets</p>
         <form action="">
             <label for="email">Email </label>
-            <input type="email" id="email">
+            <input type="email" id="email" required>
             <br>
             <label for="nom">Nom i cognoms</label>
-            <input type="text" id="nom">
+            <input type="text" id="nom" required>
             <br>
-            <label for="edat">Edat </label>
+            <label for="edat">Edat </label required>
             <input type="number" id="edat">
         </form>
         <p>Quin cicle estàs estudiant?</p>
@@ -47,9 +47,9 @@
             <label for="algo">Recerca en algorísmia</label>
         </form>
         <p>Hi ha algun tema més que tínteressi? Explica'ns-ho!</p>
-        <textarea name="comentari" id="comentari" cols="50" rows="10" placeholder="També m'agradaria saber les últimes novetats sobre..."></textarea>
-        <form action="">
-            <button type="submit">Subscriu-me</button>
-        </form>
+        <textarea name="comentari" id="comentari" cols="50" rows="10" placeholder="També m'agradaria saber les últimes novetats sobre..." required></textarea>
+        <br>
+        <br>
+        <button type="submit"><a href="/home/adriano/github/PRACTICAS/Practica4/formulari_enviat.html">Subscriu-me</a></button>
     </body>
 </html>
