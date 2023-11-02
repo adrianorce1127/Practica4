@@ -1,0 +1,26 @@
+html {
+    background-color: plum;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt {
+    width: 300px;
+}
+
+#edat {
+    width: 100px;
+}
+
+#submit {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(223, 105, 26);
+}
+
+#submit:hover {
+    background-color: red;
+}
+
+.txt:focus {
+    background-color: rgb(231, 231, 40);
+}
